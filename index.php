@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="login-container">
         <img src="./admin/img/logo1.png" alt="Logo" width="100"> <!-- Ganti logo.png dengan logo Anda -->
-        <h1>TESTING</h1>
+        <h1>S T O C K T R A C K</h1>
         <?php if (isset($login_error)) echo "<p class='error-message'>$login_error</p>"; ?>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <label for="role">Role:</label>
