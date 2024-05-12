@@ -1,0 +1,103 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    position: relative; /* Menetapkan posisi relatif pada body */
+}
+
+.container {
+    display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background: linear-gradient(to bottom, #333, #222); /* Menggunakan gradasi warna */
+    color: white;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan */
+    border-right: 2px solid #ffc107; /* Menambahkan garis tepi */
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 10px;
+}
+
+.sidebar-menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative; /* Menetapkan posisi relatif untuk menempatkan ikon */
+}
+
+/* Efek hover pada link sidebar */
+.sidebar-menu li a:hover {
+    color: #ffc107;
+    background-color: rgba(255, 0, 0, 0.1); /* Efek transparansi saat hover */
+    border-radius: 5px; /* Membuat sudut link menjadi lebih bulat saat hover */
+    transition: all 0.3s ease; /* Efek transisi halus */
+}
+
+/* Ikon untuk sidebar */
+.sidebar-menu li a::before {
+    content: ""; /* Konten kosong untuk menambahkan ikon */
+    position: absolute; /* Menetapkan posisi absolut */
+    left: 10px; /* Jarak dari sisi kiri */
+    top: 50%; /* Posisi vertikal pada tengah */
+    transform: translateY(-50%); /* Memposisikan tepat di tengah secara vertikal */
+    width: 20px; /* Lebar ikon */
+    height: 20px; /* Tinggi ikon */
+    background-image: url('icon.png'); /* URL gambar ikon */
+    background-size: cover; /* Ukuran gambar sesuai dengan ukuran kotak */
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    position: absolute; /* Menetapkan posisi absolut pada konten */
+    left: 300px; /* Jarak dari sisi kiri */
+    top: 50%; /* Posisi tengah secara vertikal */
+    transform: translateY(-50%); /* Untuk memposisikan tepat di tengah secara vertikal */
+}
+
+.welcome-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome-heading {
+    font-size: 46px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+.welcome-message {
+    font-size: 24px;
+    color: #666;
+    margin-left: 300px;
+}

@@ -1,0 +1,67 @@
+body {
+    background-image: url('background.jpg'); /* Gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang transparan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(255, 247, 0); /* Efek bayangan */
+    text-align: center;
+}
+
+h1 {
+    color: #ffff00; /* Warna teks */
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffff00;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffff00; /* Warna tombol */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animasi perubahan warna saat hover */
+    font-weight: bolder; /* Menjadikan teks tebal */
+}
+
+button:hover {
+    background-color: #137dc4; /* Warna tombol saat dihover */
+}
+
+
+p.error-message {
+    color: red;
+}

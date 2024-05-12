@@ -1,0 +1,62 @@
+/* CSS untuk halaman pegawai */
+
+/* Warna latar belakang */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Style card */
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Style header card */
+.card-header {
+    background-color: #343a40;
+    border-radius: 15px 15px 0 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style form input */
+.form-control {
+    border-radius: 20px;
+}
+
+/* Style tombol gradient */
+.btn-gradient {
+    background-image: linear-gradient(to right, #ffb199, #ff0844);
+    border-radius: 20px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background-image: linear-gradient(to right, #ff0844, #ffb199);
+    color: white;
+}
+
+/* Style tabel */
+.table {
+    background-color: #fff;
+}
+
+/* Style input pencarian */
+.search-bar input[type="text"] {
+    border-radius: 20px;
+}
+
+/* Style tombol pencarian */
+.search-bar button {
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+/* Style judul tabel */
+.table-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
